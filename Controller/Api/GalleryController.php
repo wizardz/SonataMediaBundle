@@ -101,7 +101,7 @@ class GalleryController
      * )
      * @QueryParam(
      *     name="orderBy",
-     *     array=true,
+     *     map=true,
      *     requirements="ASC|DESC",
      *     nullable=true,
      *     strict=true,
